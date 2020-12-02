@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="ISO-8859-1">
+<style type="text/css">
+h2{
+font-family:courier;
+font-size: 250%;
+text-align:center;
+color:white;
+}
+h3{
+font-family:courier;
+font-size: 180%;
+text-align:center;
+color:white;
+}
+label{
+font-family:Arail;
+font-size: 150%;
+}
+
+body{
+
+background-image:url(Images/bg8.jpg);
+background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color:white;
+  text-align:center;
+}
+input {
+padding:10px 15px;
+font-family:Trebuchet MS;
+font-size:100%;
+border-radius:8px;
+}
+.a{
+padding:10px 25px;
+font-family:Trebuchet MS;
+font-size:120%;
+border-radius:12px;
+}
+.a:hover{
+background-color:#ff2b2b;
+color:white;
+}
+
+</style>
+<title>TRANSFER AMOUNT PAGE</title>
+</head>
+<body>
+<h2>TRANSFER</h2>
+<h3>Please Enter the Transaction details</h3><br><br>
+<form action="Transfer">
+<label>Amount</label><br>
+<input type="text" placeholder="Enter the Amount" name="amt"/><br><br>
+<label>Account Number</label><br>
+<input type="text" placeholder="Enter Payee Account" name="raccno"/><br><br><br>
+
+<input class="a" type="submit" value="Transfer"/>
+</form>
+
+</body>
+</html>
